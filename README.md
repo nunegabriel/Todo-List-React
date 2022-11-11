@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+## Todo-react
+> This is project that was created using Using Reactjs.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Built With
 
-## Available Scripts
+- HTML
+- CSS
+- JS
+- React
 
-In the project directory, you can run:
+## Live Demo
 
-### `npm start`
+https://math-calcus.netlify.app/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Get Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To get the content of this project locally you need to run the following commands in your terminal.
 
-### `npm test`
+### Prerequisites
+- IDE(code editor) like: **Vscode**, **Sublime**, etc. 
+- [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Install
+> To install linters and other project's dependencies run:
+```bash
+npm install
+```
 
-### `npm run build`
+### Setup
+1. Download the **Zip** file or clone the repo with:
+```bash
+https://github.com/nunegabriel/Todo-List-React.git
+```
+3. To access cloned directory run:
+```bash
+cd Todo-List-React
+```
+3. run  
+```bash
+npm start
+```
+to start a local dev server
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Run Test for Linters
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+For tracking linter errors locally you need to follow these steps:
 
-### `npm run eject`
+1. For tracking linter errors in HTML files run:
+```bash 
+npx hint .
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. For tracking linter errors in CSS or SASS files run:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npx stylelint "\*_/_.{css,scss}"
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. For tracking linter errors in JavaScript files run:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npx eslint .
+```
 
-## Learn More
+## Author
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+👤 **Gabriel Nunekpeku**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- GitHub: [@githubhandle](https://github.com/nunegabriel)
+- Twitter: [@twitterhandle](https://twitter.com/_cornrow)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/gabriel-nunekpeku-623608173/)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Show your support
 
-### Analyzing the Bundle Size
+Give a ⭐ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📝 License
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./MIT.md) licensed.
