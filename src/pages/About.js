@@ -1,5 +1,6 @@
 import React from 'react';
 
+//About
 const About = () => (
   <div className="about__content">
     <p className="about">
